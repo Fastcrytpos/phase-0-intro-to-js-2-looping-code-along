@@ -2,7 +2,7 @@
 function writeCards(array, name) {
     let emptyArrays =[];
     for (let i= 0; i < array.length; i++) {
-      let emptyArray =`Thank you ${array[i]}${name}.`;
+      let emptyArray =`Thank you, ${array[i]}, for the wonderful ${name} gift!`;
       emptyArrays.push(emptyArray);
       debugger;
     }
